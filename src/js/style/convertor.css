@@ -1,0 +1,39 @@
+.convertor {
+    border: 2px solid green;
+    display: inline-block;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 300px;
+}
+
+.convertor > h1 {
+    background: green;
+    color: honeydew;
+    margin-top: 0;
+}
+
+.amount {
+    padding: 10px;
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.reverseBtn {
+
+
+    border: 1px solid green;
+    padding: 5px;
+    margin: auto;
+    background: green;
+    cursor: pointer;
+}
+
+.reverseBtn:hover {
+    background: rgb(20, 150, 20);
+}
+
+.listquotes {
+    padding: 5px;
+    margin: 5px;
+}
