@@ -1,4 +1,4 @@
-import { SETLISTQUOTES,} from "../../constants/actionNames";
+import { SET_LIST_QUOTES,} from "../../constants/actionNames";
 
 const initialState = {
     listquotes: [],
@@ -6,7 +6,7 @@ const initialState = {
 
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
-        case SETLISTQUOTES:
+        case SET_LIST_QUOTES:
             return Object.assign({}, state, {
                 listquotes: action.payload
             })
